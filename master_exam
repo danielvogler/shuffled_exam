@@ -1,0 +1,15 @@
+\documentclass{article}
+\usepackage[utf8]{inputenc}
+
+\title{Final Exam}
+\author{DV}
+\date{21 April 2021}
+
+\usepackage{natbib}
+\usepackage{graphicx}
+
+\begin{document}
+
+\maketitle
+
+
