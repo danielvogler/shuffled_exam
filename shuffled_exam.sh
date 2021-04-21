@@ -12,7 +12,7 @@ test_all="exam"
 rm -f ${test_all}*
 
 ### exercise files to incorporate into main test
-exercises=("ex_a" "ex_b" "ex_c" "ex_d" "ex_e")
+exercises=("ex_a" "ex_b" "ex_c" "ex_d" "ex_e" "ex_f" "ex_g")
 
 ### generate test for each student
 for s in ${student_names[@]}; do
@@ -31,7 +31,7 @@ for s in ${student_names[@]}; do
 
 		### append randomized questions to base file
 		echo "\paragraph{Question $i} " >> $test_student 
-		echo "\input{$e.tex} " >> $test_student
+		echo "\input{./exercises/$e.tex} " >> $test_student
 	done
 
 	echo "\end{document}" >> $test_student
