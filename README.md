@@ -5,7 +5,7 @@ Creates shuffled versions of exam from given exam questions from tex files and g
 - `/exercises/`: Individual exercises in folder
 - `/images/`: Example images
 - `/info/`: Set exam information, participant names etc.
-- `local.definitions`: Contains all necessary information
+- `local.defs`: Contains all necessary information
 - `master_exam`: Master file for generated .tex files for each exam. Change details and add packages if necessary
 - `shuffled_exam.sh`: Script to compile exams.
 
