@@ -1,0 +1,15 @@
+### daniel vogler
+### enter relevant information here
+
+### student to create tests for
+student_list=./info/students.txt
+
+### main file that is populated with randomized test questions
+base="master_exam"
+
+### folder and name of final exams
+exam_folder="./exams/"
+exam_name="exam"
+
+### exercise files to incorporate into main test
+exercise_list=./info/exercises.txt
