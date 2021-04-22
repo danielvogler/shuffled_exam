@@ -1,7 +1,7 @@
 ### daniel vogler
 ### generate pdf with shuffled questions
 
-source local.definitions
+source local.defs
 
 mkdir ${exam_folder}
 
@@ -29,6 +29,13 @@ for s in ${student_names[@]}; do
 	### individualized test for student
 	test_student="${test_all}_${s}.tex"
 	cp $base $test_student
+
+  ### populate tex file
+  echo "\title{${exam_title}}" >> $test_student
+  echo "\author{${exam_author}}" >> $test_student
+  echo "\date{${exam_date}}\n" >> $test_student
+  echo "\begin{document}\n" >> $test_student
+  echo "\maketitle\n" >> $test_student
 
 	### randomize exercises
 	rand_exercises=( $(shuf -e "${exercises[@]}") )

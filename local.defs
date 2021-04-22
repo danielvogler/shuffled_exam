@@ -11,5 +11,10 @@ base="master_exam"
 exam_folder="./exams/"
 exam_name="exam"
 
+### Information for Exam pdf
+exam_title="Final Exam Title"
+exam_author="DV"
+exam_date="22 April 2021"
+
 ### exercise files to incorporate into main test
 exercise_list=./info/exercises.txt
